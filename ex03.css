@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-content: normal;
+    height: 500px;
+    gap: 16px;
+}
+
+.item-1 {
+    flex-basis: 100px;
+}
+
+.item-2 {
+    flex-basis: 100px;
+}
+
+.item-3 {
+    flex-basis: 100px;
+}
+body {
+    background-color: rgb(241, 243, 128);
+}
+
+
+img{
+    border: 2px black solid;
+}

@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: 600px;
+}
+
+.item-1 {
+    align-self: flex-end;
+}
+body {
+    background-color: rgb(134, 184, 241);
+}
+
+
+img{
+    border: 2px black solid;
+}
